@@ -398,12 +398,6 @@ contains
             endif
         enddo
        
-        
-        if (NumRS ==1) then
-            NumRS = 2       
-        else
-            NumRS = NumRS - 1
-        endif
 
         ! ! Calculate DepthMaxRootDensity
         if (ThicknessSnowSoilLayer(NumRS-1) > 0 .and. ThicknessSnowSoilLayer(NumRS) > 0) then
