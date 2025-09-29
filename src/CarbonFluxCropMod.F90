@@ -399,6 +399,7 @@ contains
         enddo
        
 
+
         ! ! Calculate DepthMaxRootDensity
         if (ThicknessSnowSoilLayer(NumRS-1) > 0 .and. ThicknessSnowSoilLayer(NumRS) > 0) then
           !  DepthMaxRootDensity = int(100 * 0.5 * (ThicknessSnowSoilLayer(NumRS)+ThicknessSnowSoilLayer(NumRS-1)) + 0.5 ) ![cm] 
@@ -538,13 +539,13 @@ contains
     if ( (PlantGrowStage == 1) .or. (PlantGrowStage == 2) .or. (PlantGrowStage == 8) ) then
         do IndSoil = 1, NumSoilLayerRoot
             if (IndSoil == 1) then
-                RootLengthDensity(IndSoil) = 0.05
+                RootLengthDensity(IndSoil) = 0.0
             elseif (IndSoil == 2) then
-                RootLengthDensity(IndSoil) = 0.15
+                RootLengthDensity(IndSoil) = 0.0
             elseif (IndSoil == 3) then
-                RootLengthDensity(IndSoil) = 0.30
+                RootLengthDensity(IndSoil) = 0.0
             else
-                RootLengthDensity(IndSoil) = 0.50
+                RootLengthDensity(IndSoil) = 0.0
             endif
         enddo
     endif
