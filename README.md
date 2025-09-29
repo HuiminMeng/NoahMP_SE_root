@@ -11,10 +11,11 @@ For **downloading and compiling Noah-MP v5.0**, please refer to:
 
 In addition, the following datasets used and produced in this study are provided:
 
-- Corrected simulation forcing data
+- Simulation forcing data
 - Site-observed data
 - Model simulation results
 
 The datasets can be accessed at:
  https://drive.google.com/drive/folders/1R9yVZC-c3UszaFQVsljjNsAAzBIbQQnw?usp=drive_link
+
 
